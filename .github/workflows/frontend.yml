@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - 'frontend/**'  # Trigger deployment only for changes in the frontend directory
+      - 'app/**'  # Trigger deployment only for changes in the frontend directory
   pull_request:
     branches:
       - main
     paths:
-      - 'frontend/**'  # Trigger deployment only for pull requests affecting the frontend directory
+      - 'app/**'  # Trigger deployment only for pull requests affecting the frontend directory
 
 jobs:
   deploy:
