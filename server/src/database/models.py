@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Numeric, DateTime
 
-from src.database.database import Base
+from src.database import Base
 
 
 class Price(Base):
