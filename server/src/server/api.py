@@ -1,5 +1,9 @@
 from fastapi import FastAPI, Request, Response
 
+"""
+Router prefix 
+"""
+DB = "/db"
 
 app = FastAPI()
 
